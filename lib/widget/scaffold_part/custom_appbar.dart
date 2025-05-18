@@ -21,8 +21,18 @@ class _CustomAppbarState extends State<CustomAppbar> {
       actions: [
         IconButton(
             onPressed: (){},
-            icon: Icon(Icons.add)
+            icon: Icon(Icons.add,color: CustomColor.primaryColor,)
+        ),
+        IconButton(
+            onPressed: (){},
+            icon: Icon(Icons.add,color: CustomColor.primaryColor,)
+        ),
+
+        IconButton(
+            onPressed: (){},
+            icon: Icon(Icons.add,color: CustomColor.primaryColor,)
         )
+        
       ],
     );
   }
