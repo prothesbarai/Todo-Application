@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class FloatingButton extends StatelessWidget {
-  const FloatingButton({super.key});
+class CustomFloatingButton extends StatelessWidget {
+  const CustomFloatingButton({super.key});
 
   @override
   Widget build(BuildContext context) {

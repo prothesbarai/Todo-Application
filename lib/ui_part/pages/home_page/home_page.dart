@@ -10,11 +10,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppbar(),
-      bottomNavigationBar: CustomBottombar(),
-      floatingActionButton: FloatingButton(),
+      bottomNavigationBar: CustomBottomAppBar(),
       resizeToAvoidBottomInset: false,
-      floatingActionButtonAnimator: FloatingActionButtonAnimator.noAnimation,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: CustomFloatingButton(),
     );
   }
 }
