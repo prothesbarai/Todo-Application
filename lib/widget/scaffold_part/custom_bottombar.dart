@@ -14,11 +14,9 @@ class CustomBottomAppBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.account_balance)),
-          IconButton(onPressed: (){}, icon: Icon(Icons.account_balance)),
+          IconButton(onPressed: (){}, icon: Icon(Icons.dashboard,color: CustomColor.white,)),
           SizedBox(width: 40.w,),
-          IconButton(onPressed: (){}, icon: Icon(Icons.account_balance)),
-          IconButton(onPressed: (){}, icon: Icon(Icons.account_balance)),
+          IconButton(onPressed: (){}, icon: Icon(Icons.settings,color: CustomColor.white,)),
         ],
       ),
     );

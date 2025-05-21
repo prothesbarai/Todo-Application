@@ -19,20 +19,12 @@ class _CustomAppbarState extends State<CustomAppbar> {
       title: Text(AppStrings.appTitle),
       iconTheme: IconThemeData(color: CustomColor.primaryColor),
       actions: [
-        IconButton(
+        TextButton.icon(
             onPressed: (){},
-            icon: Icon(Icons.add,color: CustomColor.primaryColor,)
+            label: Text("Select"),
+            icon: Icon(Icons.check_box_outline_blank),
+            autofocus: false,
         ),
-        IconButton(
-            onPressed: (){},
-            icon: Icon(Icons.add,color: CustomColor.primaryColor,)
-        ),
-
-        IconButton(
-            onPressed: (){},
-            icon: Icon(Icons.add,color: CustomColor.primaryColor,)
-        )
-        
       ],
     );
   }
