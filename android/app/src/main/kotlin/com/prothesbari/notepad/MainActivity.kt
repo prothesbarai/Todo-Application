@@ -1,4 +1,4 @@
-package com.prothesbarai.notepad.todoapps
+package com.prothesbari.notepad
 
 import io.flutter.embedding.android.FlutterActivity
 
