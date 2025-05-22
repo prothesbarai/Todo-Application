@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:todoapps/logical_part/provider/notepad_provider.dart';
 import 'package:todoapps/ui_part/pages/home_page/home_page.dart';
 
 void main(){
   return runApp(MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => NotepadProvider(),)
+        ChangeNotifierProvider(create: (_) => null,)
       ],
       child: NotePadApps()
   ));
