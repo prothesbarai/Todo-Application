@@ -20,7 +20,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget{
         TextButton.icon(
             onPressed: (){},
             label: Text(AppString.selectAll,style: TextStyle(color: AppColor.appButtonTextColor),),
-            icon: Icon(Icons.check_box,color: AppColor.appButtonIconColor,),
+            icon: Icon(Icons.check_box,color: AppColor.appBarIconColor,),
         ),
 
 
