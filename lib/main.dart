@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todoapps/pages/home_page.dart';
 
 void main(){
   return runApp(NotePadApps());
@@ -11,7 +12,8 @@ class NotePadApps extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
   }
 }
